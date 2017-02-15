@@ -145,7 +145,8 @@ likely-light-box-shadow = rgba(0,0,0,.2) 0 0 .33em;
 
 colorize(button, color) {
   .likely__widget_{button} {
-    fill: color;
+    fill: #fff;
+    background: color;
     &:hover, &:active, &:focus {
       background: alpha(mix(#fff,color,75%),.8);
 
